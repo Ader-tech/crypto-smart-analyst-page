@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cryptosmart Analyst</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Crypto Trading Algorithms Cryptosmart Analyst investment" name="keywords">
+    <meta content="Your smart investment companion" name="description">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Favicon -->
+    <link href="img/CSA new 613 grey.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.mi.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0"> 
+        <nav class="navbar navbar-expand-lg navbar-dark px-2 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <img class="nav-img" src="img/CSA gold horiz.png" alt="">   
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav" >
+                    <div class="dropdown-list">
+                        <button href="#Plans" id="dropdown" class="nav-item dropdown-btn nav-link">Choose Plan <i class="fa fa-caret-down"></i></button>
+                        <li class="dropdown">
+                            <a href="#Plans">
+                                <h5>MasterClass Plan</h5>
+                                <p>Get started with our master class, and move from novice to beginner.</p>
+                            </a>
+                            <a href="#Plans">
+                                <h5> Pro Plan</h5>
+                                <p>You have basics knowledge? then our pro plan is for you.</p>
+                            </a>
+                            <a href="#Plans">
+                                <h5>Elite plan</h5>
+                                <p>All you need for a successful journey in trading & Investment.</p>
+                            </a>
+                            <a id="tradeBot"  href="#coming-soon">
+                                <h5>Trading Bot</h5>
+                                <p>You don't like to trade? No p. STIC hunter bot will trade for you.</p>
+                            </a>
+                        </li>
+                    </div>
+                    <a href="#Join" class="nav-item nav-link">Join Community</a>
+                    <a href="https://medium.com/@heswaik/this-price-range-is-where-i-will-be-buying-bitcoin-long-term-21be85acced2" class="nav-item nav-link">Blog</a>
+                </div>
+                <div class="nav-sign">
+                    <a href="https://app.cryptosmartanalyst.com/" class="btn btn-primary  me-3 rounded-pill animated slideInLeft">Sign In</a>
+                    <a href="https://app.cryptosmartanalyst.com/register.html" class="btn btn-primary me-3 animated rounded-pill slideInLeft">Sign Up</a>
+                </div>
+
+                <div id="coming-soon" class="trade-bot-coming-soon">
+                    <div class="trade-bot">
+                        <div class="bot-header">
+                            <i id="closeBot" class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                        <div class="trade-bot-content">
+                           <p class="soonBot">Coming Soon!!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+        <div class="home-container">
+            <div class="text">
+                <span id="auto-type" class="display.9 text-white  mb-md-4 animated zoomIn"></span>
+                <h6 class="text-white  mb-3 animated slideInDown">Boost Your Trading Success with our <br> Advanced Risk Mitigative Algorithms</h5>
+                <a href="#Plans" class="btn btn-primary rounded-pill py-md-3 px-md-3 me-3 animated slideInLeft"> Create your free account</a>
+                <a href="https://www.youtube.com/embed/QXQI0mpMg30?si=h_P5D78cE96WOoCH" target="_parent" class="animated slideInLeft">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                    See how it works!
+                </a>
+            </div>
+            <div class="Image">
+               
+            </div>
+        </div>
+
+    <!-- upcoming event -->
+    <div id="webinar" class="container-fluid container Facts">
+        <div class="col-lg-12 wow zoomIn" data-wow-delay="0.1s">
+            <div class="webinar">
+                <div class="event section-title position-relative text-center pb-3 mb-5 mx-aut">
+                    <h1>
+                        Upcoming Event
+                    </h1>
+                    <span>Get mentored by experienced tutors with positive track record in trading the market. <br> Enroll now for Beginner-friendly Masterclass</span>
+                </div>
+                <div class="countdown">
+                   <div>
+                        <p id="days">00</p>
+                        <span>Days</span>
+                   </div>
+                   <div>
+                        <p id="hours">00</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p id="minutes">00</p>
+                        <span>Minutes</span>
+                    </div>
+                    <div>
+                        <p id="seconds">00</p>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="master-img">
+                        <img class="mast" src="/img/Rscan.jpeg" alt="">
+                        <img class="mast2" src="/img/webinar.jpeg" alt="">
+                    </div>
+                    <div class="info-form">
+                        <span>Become a profitable crypto & forex investor  with an edge by signing up for beginner-friendly comprehensive masterclass. Amazing bonuses and refunds awaits you.
+                        </span>
+                        <a href="https://app.cryptosmartanalyst.com/register.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Register Here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- why us -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary" style="font-size: 25px;">With STIC tool, you will always know what coins to Buy or Sell next.</h5>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-12">
+                    <div class="row g-5">
+                        <div class="col-lg-4 col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <div class=" rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-alt text-white"></i>                            
+                            </div>
+                            <h4>Easy to use.</h4>
+                            <p class="mb-0">The advanced trading tool has been presented with colors and arrow alerts to make it easy for anyone to understand. Including tutorial vidoes</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                            <div class=" rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-graph-up text-white"></i>
+                            </div>
+                            <h4>Cutting-Edge Tools</h4>
+                            <p class="mb-0">Access our state-of-the-art Advanced Cryptosmart Trading Tool for TradingView, equipped with a Fibonacci entry and support levels, live market sentiment analysis, Bullish and Bearish Flips, liquidity sentiment, and more.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 wow zoomIn" data-wow-delay="0.8s">
+                            <div class=" rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-sliders text-white"></i>
+                            </div>
+                            <h4>Comprehensive Education</h4>
+                            <p class="mb-0">Gain a competitive advantage personalized trading guide sessions with expert traders. Mitigate your risk and enhance your trading skills.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <div class=" rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-distribute-horizontal text-white"></i>                            </div>
+                            <h4>Risk Management Mastery</h4>
+                            <p class="mb-0">Learn the art of risk management with our masterclass. Protect your capital and minimize losses while maximizing your potential gains. Smart risk management is the key to long-term success.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 wow zoomIn" data-wow-delay="0.8s">
+                            <div class=" rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-map text-white"></i>
+                            </div>
+                            <h4>Weekly Market Insights</h4>
+                            <p class="mb-0">Subscribers to Cryptosmart's Pro Plan receive daily market insights. These insights keep traders up to date with the latest market developments which includes, short/long-term entry and exit alerts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Features Start -->
+    <div id="smart-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="text-center  position-relative pt-2 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary" style="font-size: 25px;">Mitigate your trading risk, with our smart trading and Investment companion (STIC) tool</h5>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item item active py-2 mb-3" >
+                <div class="d-flex align-items-center justify-content-center" >
+                <img class="mt-3 mx-3"  src="img/csa gif.gif" style="width: 95%; height: 50%;" alt="Image">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#smart-carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#smart-carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Pricing Plan Start -->
+    <div id="Plans" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5 px-2">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase" style="font-size: 25px;">Explore Our Plans</h5>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-3 mx-auto wow slideInUp" data-wow-delay="0.6s">
+                        <div class="shadow content-head border mx-2">
+                            <div class="pt-4 px-2 mb-4">
+                                <h4>MasterClass Plan:</h4>
+                                <small class="align-top" style="font-size: 15px; line-height: 5px;">One-time fee $250 <span>$500</span></small>                            
+                            </div>
+                            <div class="px-2 pb-auto mb-auto">
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Comprehensive trading and investment masterclass</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Master Risk Management Techniques</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Learn Waves, liquidity, and sentiment Prediction Strategies.</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Comprehensive understanding of smart-money support and resistance entries</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Master Candlestick Analysis and Philosophy</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Access Pre-Recorded Technical Analysis Training</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Enjoy a Personalized mentoring Session Monthly</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Get 1 month's Free Access to the Advance Cryptosmart Analyst Smart Trading and Investment Companion (STIC) Tool.</span></div>
+                            </div>
+                            <div class="content d-flex justify-content-center"><a href="https://app.cryptosmartanalyst.com/register.html" class="btn btn-primary ">Create your free account</a></div>  
+                        </div>  
+                </div>                
+                <div class="col-lg-3 mx-auto wow slideInUp" data-wow-delay="0.9s">
+                        <div class="shadow content-head border">
+                            <div class="pt-4 px-2 mb-4">
+                                <h4 class="text-primary mb-1">Pro Plan: <span style="font-size: 12px;">(+7day free trial)</span></h4>
+                                <small class="align-top" style="font-size: 15px; line-height: 5px;">Monthly $32<span> $40</span></small><br>
+                                <small class="align-top" style="font-size: 15px; line-height: 5px;">Yearly $300 <span> $480</span></small>   
+                            </div>
+                            <div class="px-1 pb-auto mb-auto">
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Buy and Sell potential alerts</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Market reversal extreme level 1,2 and 3 alerts</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Get instant buy and sell alert in your email and STIC app</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Market impact direction flip Alerts</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Personalized Mentorship Session with Expert Traders</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Special market extreme alert for manipulated pumps and dump scenarios</span></div>
+                                <!-- <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Instant buy and sell entry alerts</span></div> -->
+                                <!-- <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Access Cryptosmart Analyst STIC Bot</span></div> -->
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Newsletter</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Leverage Liquidity Sentiment with Entry/Exit Tool</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Support and Resistance situation alerts</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Advanced Risk Management Masterclass</span></div>
+                                <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Access Exclusive Smart Money Supply and Demand insight,e.t.c.</span></div>
+                            </div>
+                            <div class="content d-flex justify-content-center"><a href="https://app.cryptosmartanalyst.com/register.html" class="btn btn-primary ">Create your free account</a></div>            
+                        </div>
+                </div>
+                <div class="col-lg-3 mx-auto wow slideInUp" data-wow-delay="0.6s">
+                    <div class="shadow content-head border mx-2">
+                        <div class="pt-4 px-2 mb-4">
+                            <h4>Elite plan:</h4>
+                            <small class="align-top" style="font-size: 15px; line-height: 5px;">Lifetime access $4500 <span>$5500</span> </small>                            
+                        </div>
+                        <div class="px-2 pb-auto mb-auto">
+                            <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Active Long and Short term Trade Signal and Guide</span></div>
+                            <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Access all Standard and Pro Plan features</span></div>
+                            <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Early trade entry alerts</span></div>
+                            <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Master Candlestick Analysis and Philosophy</span></div>
+                            <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px;">Personalized Mentorship Session with Expert Traders</span></div>
+                            <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Access Advanced Cryptosmart Trading Tool for TradingView</span></div>
+                            <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Stay Informed with Daily Market Insights</span></div>
+                            <div class="d-flex justify-content mb-1"><i class="bi bi-file-earmark-bar-graph text-icon px-2"></i><span style="font-size: 12px; line-height: px;">Access to premium member close circle.</span></div>
+                        </div>
+                        <div class="content d-flex justify-content-center"><a href="https://app.cryptosmartanalyst.com/register.html" class="btn btn-primary ">Get Started Now</a></div>  
+                    </div>  
+                </div>      
+            </div> 
+            </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <div id="referal" class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container mb-5 py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h1 class="fw-bold text-primary">Start Earning</h1>
+            </div>
+            <div class="earn_program">
+                <!-- https://media.giphy.com/media/gKwPlcS1zeyYwY6Nai/giphy.gif -->
+               
+                <div class="earn1 wow zoomIn" data-wow-delay="0.2s">
+                    <img src="/img/wettingCoin.png" alt="" srcset="">
+                </div>
+                <div class="earn2 text-center wow zoomIn" data-wow-delay="0.2s">          
+                    <h3>Partner Program</h3>
+                    <p class="mb-0">Become an affiliate partner and make decent cash by promoting us to your followers </p>
+                    <a href="https://app.cryptosmartanalyst.com/" class="btn btn-primary py-2 px-4 mb-1 mt-4">Start Earning</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    </section> 
+
+    <section class="testimonial wow fadeInUp">
+        <div class="testimonial-container">
+            <div class="section-header">
+                <h2 class="title">what our clients say</h2>
+            </div>
+            <div class="testimonials-content">
+                <div class="testimonials-slider js-testimonials-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonials-item">
+                            <div class="testimonial-info">
+                                <img src="" alt="">
+                                <div class="text-box">
+                                    <h3 class="name">Wealth Ola</h3>
+                                    <span class="job">web developer</span>
+                                </div>
+                            </div>
+                            <p>The CSA Advanced Trading Tool for TradingView is a game-changer!  It saves me time and helps me spot opportunities I would have missed otherwise. The tools in the Pro Plan are top-notch!</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide testimonials-item">
+                            <div class="testimonial-info">
+                                <img src="" alt="">
+                                <div class="text-box">
+                                    <h3 class="name">Alex</h3>
+                                    <span class="job">web developer</span>
+                                </div>
+                            </div>
+                            <p>I upgraded to the Pro Plan, and it exceeded my expectations. The support and resistance band tool have improved my entries and exits significantly. The liquidity sentiment tool is brilliant! Cryptosmart's insights have been spot-on."</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide testimonials-item">
+                            <div class="testimonial-info">
+                                <img src="" alt="">
+                                <div class="text-box">
+                                    <h3 class="name">Cryptopreneur</h3>
+                                    <span class="job">web developer</span>
+                                </div>
+                            </div>
+                            <p>"I really enjoy CSA analysis and the mode of trading flexibility. I have been following on the CSA global telegram channel for about 2 years."</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide testimonials-item">
+                            <div class="testimonial-info">
+                                <img src="" alt="">
+                                <div class="text-box">
+                                    <h3 class="name">Akingbade Jane</h3>
+                                    <span class="job">web developer</span>
+                                </div>
+                            </div>
+                            <p>"The Pro Plan is worth every penny! The regression band tool and live market sentiment analysis have given me a competitive edge. The personalized mentorship and daily market insights are invaluable. Highly recommended!"</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination js-testimonials-pagination"></div>
+            </div>
+        </div> 
+    </section>
+
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-white wow mt-3 mb-3 fadeInUp">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <!-- <div class="col-lg-8 col-md-6"> -->
+                    <div class="mt-5 get-started">
+                        <h1 class="">Want to get Involved?</h1>
+                        <a href="https://t.me/addlist/Wr_UINpxPrZlNWE0" id="Join" class="btn rounded-pill btn-primary mb-4 mt-4">Join the Community</a>
+                    </div>
+                    <div class="footer d-flex align-items-center justify-content-center " style="height: 75px;">
+                        <p class="mb-0 mx-1">&copy; <a class="text-white border-bottom" href="#">Cryptosmart Analyst</a>.                            
+                         2023.</p>
+                         <div class="d-flex mb-0 mt-2">
+                            <a class="btn btn-primary me-2" href="https://twitter.com/@csanalyst007"><i class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-primary btn-square me-2" href="https://t.me/addlist/Wr_UINpxPrZlNWE0"><i class="bi bi-telegram"></i></a>
+                            <a class="btn btn-primary btn-square me-2" href="https://www.youtube.com/@cryptosmartanalyst"><i class="bi bi-youtube"></i>                            </a>
+                            <!-- <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a> -->
+                            <a class="btn btn-primary btn-square" href="https://www.instagram.com/cryptosmartanalyst/"><i class="fab fa-instagram fw-normal"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
